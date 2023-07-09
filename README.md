@@ -7,17 +7,17 @@
 ## URL Curta customizável ou aleatoria 
 ## Expiracao da URL curta
 
-1 - docker-compose up -d
-2 - Rota principal
+# 1 - docker-compose up -d
+# 2 - Rota principal
   ``POST http://127.0.0.1:3434/api/v1``
-  request body:
+  ## request body:
   ``
   {
     "url":"https://github.com/lotustea/url-shortener-golang/", //obrigatorio
     "short": "shortenerRepo" //opcional
   }
   ``
-  response exemplo:
+  ## response exemplo:
   ``
     {
       "url": "https://github.com/lotustea/url-shortener-golang/",
